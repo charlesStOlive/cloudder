@@ -3,7 +3,7 @@
 namespace JD\Cloudder;
 
 use Cloudinary;
-use October\Rain\Config\Repository;
+use Illuminate\Contracts\Config\Repository;
 
 class CloudinaryWrapper
 {
